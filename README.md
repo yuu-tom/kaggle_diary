@@ -14,7 +14,10 @@ HMS - Harmful Brain Activity Classification join!
 ・GRDA
 ・other
 
-
+アノテーション
+・idealized 専門家の意見が一致
+・proto patterns 約1/2が意見を一致、約1/2が"other"を選択
+・edge case 5つのパターンのうち、2つに意見が割れる
 
 公開codeのEfficientNetB2 Starterを確認
 
