@@ -52,4 +52,19 @@ _vote
 ### 20240126
 提供されているスペクトログラムデータと、それを加工したデータでモデルの性能に差が出るみたい
 
+・eeg_id
+・eeg_sub_id
+・eeg_label_offset_seconds
+・spectrogram_id
+・spectrogram_sub_id
+・spectrogram_label_offset_seconds
+・label_id
+・patient_id
+・expert_consensus
+・seizure_vote
+・lpd_vote
+・gpd_vote
+・lrda_vote
+・grda_vote
+・other_vote
 
