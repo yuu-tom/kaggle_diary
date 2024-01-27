@@ -52,15 +52,16 @@ _vote
 ### 20240126
 提供されているスペクトログラムデータと、それを加工したデータでモデルの性能に差が出るみたい
 
-・eeg_id
-・eeg_sub_id
-・eeg_label_offset_seconds
-・spectrogram_id
-・spectrogram_sub_id
-・spectrogram_label_offset_seconds
-・label_id
-・patient_id
-・expert_consensus
+・eeg_id　：個別のeeg(脳波)を識別するid
+・eeg_sub_id　：特定のeegの50秒ごとsubsetに割り当てられるid
+・eeg_label_offset_seconds　：subsetが、連結された(元の)eegの、開始から何秒ずれているか
+・spectrogram_id　；個別のeeg(spectrogram)に対する脳波を識別するid
+・spectrogram_sub_id　：全体の脳波(spectrogram)に対する10分のsubsampleの識別id
+・spectrogram_label_offset_seconds ：このspectrogramとsubsampleが開始してからの経過時間
+・label_id ：上記のラベルに対応するid
+・patient_id ：データ提供患者のid
+・expert_consensus ：専門家によるアノテーションの結果。簡易的に示す 
+以下、専門家が投票した脳活動の数を数字で示す
 ・seizure_vote
 ・lpd_vote
 ・gpd_vote
