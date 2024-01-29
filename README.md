@@ -69,3 +69,8 @@ _vote
 ・grda_vote
 ・other_vote
 
+### 20240129
+提出ファイル：
+eeg_idと[seizure/lpd/gpd/lrda/grda/other]_voteを含むcsvファイル。それぞれの活動ラベルの、専門家投票の確率分布を予想する。
+
+
